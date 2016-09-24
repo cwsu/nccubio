@@ -1,5 +1,5 @@
 # read PAM1 from data
-pam1<-read.table("C:/Users/User/研究所/生物資訊/pam1.txt")
+pam1<-read.table("pam1.txt")
 
 # check PAM1 data
 dim(pam1)
@@ -18,4 +18,4 @@ pam250<-recursive.matrixPower(deal_pam1,250)
 pam250<-pam250*100
 
 # output PAM250 as a file
-write.table(pam250,file="C:/Users/User/研究所/生物資訊/pam250.txt")
+write.table(pam250,file="pam250.txt")
